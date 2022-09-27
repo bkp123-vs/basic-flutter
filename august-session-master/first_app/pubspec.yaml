@@ -1,0 +1,82 @@
+name: first_app
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 1.0.2
+
+  ## ui packages
+  google_fonts: ^3.0.1
+  flutter_vector_icons:
+  fluttertoast: ^8.0.9
+  flutter_svg: ^1.1.5
+
+  # data persistence
+  shared_preferences: ^2.0.15
+  sqflite: ^2.0.3+1
+
+  # utils
+  path_provider: ^2.0.11
+  jiffy: ^5.0.0
+  form_field_validator: ^1.1.0
+
+  # firebase pacakges
+  firebase_core: ^1.22.0
+  firebase_auth: ^3.8.0
+  google_sign_in: ^5.4.1
+  flutter_facebook_auth: ^4.4.1
+  firebase_crashlytics: ^2.8.10
+
+  # state management
+  flutter_bloc:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  change_app_package_name: ^1.1.0
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/Oswald-Bold.ttf
+          weight: 700
+
+        - asset: assets/fonts/Oswald-ExtraLight.ttf
+          weight: 200
+
+        - asset: assets/fonts/Oswald-Light.ttf
+        - asset: assets/fonts/Oswald-Medium.ttf
+        - asset: assets/fonts/Oswald-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Oswald-SemiBold.ttf
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
